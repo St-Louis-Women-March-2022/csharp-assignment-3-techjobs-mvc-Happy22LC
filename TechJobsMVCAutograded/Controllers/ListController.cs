@@ -42,6 +42,8 @@ namespace TechJobsMVCAutograded.Controllers
         }
 
         // TODO #2 - Complete the Jobs action method
+        //list jobs by column and value
+        //needs 2 query parameters
         public IActionResult Jobs(string column, string value)
         {
             List<Job> jobs = new List<Job>();
